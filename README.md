@@ -42,3 +42,11 @@ Get an image from the API:
 
 Get a resized image from the API:
 > http://localhost:6090/api/image/maxresdefault.jpg?size=800x800
+
+See stats about the number of uploaded images, resized images hits and misses (for resized images):
+> http://localhost:6090/api/stats
+
+Example output:
+~~~
+{"allImages":1,"data":[{"name":"maxresdefault.jpg","files":["800x800maxresdefault.jpg"],"counter":1}],"resized":{"images":["800x800maxresdefault.jpg"],"count":1},"cache":{"hit":1,"miss":0}}
+~~~
