@@ -43,7 +43,7 @@ Get an image from the API:
 Get a resized image from the API:
 > http://localhost:6090/api/image/maxresdefault.jpg?size=800x800
 
-See stats about the number of uploaded images, resized images hits and misses (for resized images):
+See stats about the number of uploaded images, resized images, hits and misses (for resized images):
 > http://localhost:6090/api/stats
 
 Example output:
