@@ -38,4 +38,4 @@ Get an image from the API:
 > http://localhost:6090/api/image/maxresdefault.jpg
 
 Get a resized image from the API:
-http://localhost:6090/api/image/maxresdefault.jpg?size=800x800
+> http://localhost:6090/api/image/maxresdefault.jpg?size=800x800
