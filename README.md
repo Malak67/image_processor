@@ -15,6 +15,8 @@ This service is used to serve images optimised for the device they’ll be displ
 
 ## Installation
 
+Clone the application in your own repo
+
 Install all node modules from package.json:
 ~~~
 npm install
