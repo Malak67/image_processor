@@ -1,0 +1,27 @@
+{
+  "name": "image_processor",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Florin Georgescu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "crypto": "0.0.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "gm": "^1.23.0",
+    "imagemagick": "^0.1.3",
+    "jimp": "^0.2.27",
+    "mime": "^1.3.4",
+    "mongoose": "^4.8.6",
+    "morgan": "^1.8.1",
+    "multer": "^1.3.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}
