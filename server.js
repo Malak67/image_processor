@@ -40,5 +40,6 @@ const server = app.listen(port, function (err)
     console.log('Your server is running on port ' + port + '.');
 });
 
+// Add the router
 const router = require('./router');
 router(app);

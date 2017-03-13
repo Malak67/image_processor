@@ -2,6 +2,7 @@ const express = require('express'),
     router = express.Router(),
     imageRouter = require('./imageRoutes');
 
+// redirect to index.html by default
 router.get('/', function(req, res, next)
 {
     res.render('index.html');
