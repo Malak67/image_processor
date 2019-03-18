@@ -1,5 +1,5 @@
 # image_processor
-Node-based microservice, with RESP API, allowing an user to Upload images, and risize them per request.
+Node-based microservice, with RESP API, allowing an user to Upload images, and resize them per request.
 
 
 ## Functionality
